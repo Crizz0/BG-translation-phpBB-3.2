@@ -3,11 +3,11 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
-* @package language
-* This file is part of the phpBB Forum Software package.
-*
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,37 +38,35 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> 'Активни теми',
-	'ANNOUNCEMENTS'			=> 'Съобщения',
+	'ANNOUNCEMENTS'			=> 'Важни съобщения',
 
 	'FORUM_PERMISSIONS'		=> 'Права на форума',
 
-	'ICON_ANNOUNCEMENT'		=> 'Важна тема',
+	'ICON_ANNOUNCEMENT'		=> 'Важно съобщение',
 	'ICON_STICKY'			=> 'Закачена',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'Трябва да влезете в акаунта си.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Бяхте уведомен за този форум, моля влезте в профила си за да го прегледате.',
 
-	'MARK_TOPICS_READ'		=> 'Маркирайте темите като прочетени',
+	'MARK_TOPICS_READ'		=> 'Маркирай темите като прочетени',
 
-	'NEW_POSTS_HOT'			=> 'Нови мнения [ Популярна ]',
-	'NEW_POSTS_LOCKED'		=> 'Нови мнения [ Заключена ]',
-	'NO_NEW_POSTS_HOT'		=> 'Няма непрочтени мнения [ Популярна ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Няма непрочтени мнения [ Заключена ]',
-	'NO_UNREAD_POSTS_HOT'   => 'Няма непрочетени мнения [ Популярни ]',
-   'NO_UNREAD_POSTS_LOCKED' => 'Няма непрочетени мнения [ Заключени ]',
+	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Нямате необходимите права за да разглеждате теми в този форум.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Няма непрочетени мнения [ Популярни ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Няма непрочетени мнения [ Заключени ]',
 
-	'POST_FORUM_LOCKED'		=> 'Форума е заключен',
+	'POST_FORUM_LOCKED'		=> 'Форумът е заключен',
 
-	'TOPICS_MARKED'			=> 'Темите са маркирани като прочетени',
-	
-	'UNREAD_POSTS_HOT'		=> 'Непрочетени съобщения [ Популярная тема ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Непрочетени съобщения [ Темата е затворена ]',
+	'TOPICS_MARKED'			=> 'Темите в този форум бяха маркирани като прочетени.',
 
-	'NO_READ_ACCESS'		=> 'Вие нямате право на четене на теми в този форум.',
-	
-	'VIEW_FORUM'			=> 'Прегледай форум',
+	'UNREAD_POSTS_HOT'		=> 'Непрочетени мнения [ Популярни ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Непрочетени мнения [ Заключени ]',
+
+	'VIEW_FORUM'			=> 'Виж форума',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1	=> '%d тема',
 		2	=> '%d теми',
-		3	=> '%d теми',
 	),
 ));

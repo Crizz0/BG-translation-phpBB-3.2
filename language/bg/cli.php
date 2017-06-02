@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Проверка за обновявания.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Име на разширението за проверка (с ключа all ще бъдат проверени всички разширения)',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Проверка обновлений с ипользованием кэша.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Проверка за обновявания с използване на кеш.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Избор на типа проверка за обновявания (само стабилни версии или и нестабилни.).',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" нестабилно.',

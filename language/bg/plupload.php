@@ -7,8 +7,8 @@
 * @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -39,41 +39,41 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'Добави файлове',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Добави файлове в опашката и натисни бутона «Качи».',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s вече са на опашката.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Добави файлове към опашката за качване и натисни бутона за старт.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s вече присъства в опашката.',
 	'PLUPLOAD_CLOSE'			=> 'Затвори',
-	'PLUPLOAD_DRAG'				=> 'Премести файловете тук.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Грешка: посочения файл вече съществува.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Може да качите файл, като го завлечете в този прозорец.',
-	'PLUPLOAD_ERR_INPUT'		=> 'Не може да бъде открит входящия поток.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Не е възможно да бъде преместен качения файл.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Не е възможно да бъде намерен изходящия поток.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Файла е прекалено голям:',
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Грешка при преброяването на количеството файлове.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Грешно разширение на файла:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Недостатъчно памет за да се изпълни операцията.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Линка към файла за качване е грешен или адреса не съществува.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'Грешка на разширението на файла.',
+	'PLUPLOAD_DRAG'				=> 'Издърпайте файловете тук.',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Дубликатен файл.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Също така можете да прикачвате файлове като ги издърпвате в празното поле на съобщението.',
+	'PLUPLOAD_ERR_INPUT'		=> 'Неуспешно отваряне на потока за качване.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Неуспешно преместване на качения файл.',
+	'PLUPLOAD_ERR_OUTPUT'		=> 'Неуспешно отваряне на потока за сваляне.',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Файлът е прекалено голям:',
+	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Грешка с броя на файловете.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Невалидно разширение на файла:',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Паметта на процеса свърши.',
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Връзката, от която се опитвате да качите може да е грешна или да не съществува.',
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'Грешка в разширението на файла.',
 	'PLUPLOAD_FILE'				=> 'Файл: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'Файл: %s, големина: %d, максимална големина на файла: %d',
-	'PLUPLOAD_FILENAME'			=> 'Име на файла',
-	'PLUPLOAD_FILES_QUEUED'		=> 'Файлове на опашката: %d',
+	'PLUPLOAD_FILE_DETAILS'		=> 'Файл: %s, размер: %d, максимален размер на файла: %d',
+	'PLUPLOAD_FILENAME'			=> 'Има на файла',
+	'PLUPLOAD_FILES_QUEUED'		=> '%d файла в опашката',
 	'PLUPLOAD_GENERIC_ERROR'	=> 'Обща грешка.',
 	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP грешка.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Грешен или неподдържан формат на изображението.',
-	'PLUPLOAD_INIT_ERROR'		=> 'Грешка при инициализиране.',
-	'PLUPLOAD_IO_ERROR'			=> 'Грешка при въвеждане',
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'Форматът на изображението е грешен или не се поддържа.',
+	'PLUPLOAD_INIT_ERROR'		=> 'Грешка при инициализация.',
+	'PLUPLOAD_IO_ERROR'			=> 'Входно/изходна грешка',
 	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Грешка на безопасност.',
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Грешка в сигурността.',
 	'PLUPLOAD_SELECT_FILES'		=> 'Избери файлове',
-	'PLUPLOAD_SIZE'				=> 'Големина',
-	'PLUPLOAD_SIZE_ERROR'		=> 'Грешка на големината на файла.',
+	'PLUPLOAD_SIZE'				=> 'Размер',
+	'PLUPLOAD_SIZE_ERROR'		=> 'Грешка с размера на файла.',
 	'PLUPLOAD_STATUS'			=> 'Статус',
-	'PLUPLOAD_START_UPLOAD'		=> 'Качи',
-	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Започни качването на файловете.',
+	'PLUPLOAD_START_UPLOAD'		=> 'Започни качването',
+	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Започни качването на файловете в опашката',
 	'PLUPLOAD_STOP_UPLOAD'		=> 'Спри качването',
-	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Спри настоящето качване',
+	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Спри качващите се в момента файлове',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'Качени файлове: %d/%d',
+	'PLUPLOAD_UPLOADED'			=> 'Качени са %d/%d файла',
 ));

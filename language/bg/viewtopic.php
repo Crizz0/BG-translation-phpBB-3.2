@@ -3,11 +3,11 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
-* @package language
-* This file is part of the phpBB Forum Software package.
-*
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,92 +37,90 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Одобряване',
-    'ATTACHMENT'                        => 'Прикачени файлове',
-    'ATTACHMENT_FUNCTIONALITY_DISABLED'    => 'Прикачването на файлове е изключено',
+	'APPROVE'								=> 'Одобри',
+	'ATTACHMENT'						=> 'Прикачен файл',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Прикачването на файлове е забранено.',
 
-    'BOOKMARK_ADDED'        => 'Темата е маркирана успешно.',
-	'BOOKMARK_ERR'			=> 'Грешка, опитайте отново.',
-    'BOOKMARK_REMOVED'      => 'Маркировката е успешно мремахната.',
-    'BOOKMARK_TOPIC'        => 'Добави отметка към тази тема',
-    'BOOKMARK_TOPIC_REMOVE' => 'Премахни отметка',
-    'BUMPED_BY'             => 'Последно издигане %1$s от %2$s',
-    'BUMP_TOPIC'            => 'Издигни темата',
+	'BOOKMARK_ADDED'		=> 'Темата успешно е добавена в любими.',
+	'BOOKMARK_ERR'			=> 'Неуспешно добавяне на темата в любими. Моля, опитайте отново.',
+	'BOOKMARK_REMOVED'		=> 'Темата беше премахната от любими.',
+	'BOOKMARK_TOPIC'		=> 'Добави темата в любими',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Премахни темата от любими',
+	'BUMPED_BY'				=> 'Последно избутана от %1$s на %2$s.',
+	'BUMP_TOPIC'			=> 'Избутай темата',
 
-    'CODE'                  => 'Код за потвърждение',
+	'CODE'					=> 'Код',
 
-    'DELETE_TOPIC'          => 'Изтрий темата',
-	'DELETED_INFORMATION'	=> 'Изтрито %2$s от потребителя %1$s',
-	'DISAPPROVE'					=> 'Отхвърли',
-    'DOWNLOAD_NOTICE'       => 'Вие нямате нужните права за да сваляте прикачени файлове.',
+	'DELETE_TOPIC'			=> 'Изтрий темата',
+	'DELETED_INFORMATION'	=> 'Изтрита от %1$s на %2$s',
+	'DISAPPROVE'					=> 'Не одобрявай',
+	'DOWNLOAD_NOTICE'		=> 'Нямате нужните права за да преглеждате прикачените към това мнение файлове.',
 
-    'EDITED_TIMES_TOTAL'    => array(
-		1	=> 'Последна промяна %2$s на %3$s, променена общо %1$d пъти.',
-		2	=> 'Последна промяна %2$s на %3$s, променена общо %1$d пъти.',
-		3	=> 'Последна промяна %2$s на %3$s, променена общо %1$d път.',
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> 'Последна промяна от %2$s на %3$s, променено общо %1$d път.',
+		2	=> 'Последна промяна от %2$s на %3$s, променено общо %1$d пъти.',
 	),
-    'EMAIL_TOPIC'           => 'Изпрати на приятел',
-    'ERROR_NO_ATTACHMENT'   => 'Избраните файлове вече не съществуват',
+	'EMAIL_TOPIC'			=> 'Прати темата по емейл',
+	'ERROR_NO_ATTACHMENT'	=> 'Избраният прикачен файл вече не съществува.',
 
-    'FILE_NOT_FOUND_404'    => 'Файла <strong>%s</strong> не съществува.',
-    'FORK_TOPIC'            => 'Копирай темата',
-	'FULL_EDITOR' 			=> 'Пълен редактор',
+	'FILE_NOT_FOUND_404'	=> 'Файлът <strong>%s</strong> не съществува.',
+	'FORK_TOPIC'			=> 'Копирай темата',
+	'FULL_EDITOR'			=> 'Пълен редактор &amp; Преглед',
 
-    'LINKAGE_FORBIDDEN'     => 'Вие нямате право да сваляте/преглеждате/линквате от този сайт.',
-    'LOGIN_NOTIFY_TOPIC'    => 'Трябва да влезете в акаунта си.',
-    'LOGIN_VIEWTOPIC'       => 'Влезте в акаунта си за да видите темата.',
+	'LINKAGE_FORBIDDEN'		=> 'Нямате нужните права за да преглеждате, сваляте или споделяте/взимате връзки от този сайт.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Бяхте уведомен за тази тема, моля влезте в профила си за да я видите.',
+	'LOGIN_VIEWTOPIC'		=> 'Трябва да сте регистриран и да сте влезли в профила си за да видите тази тема.',
 
-    'MAKE_ANNOUNCE'         => 'Направи Важна тема',
-    'MAKE_GLOBAL'           => 'Направи Съобщение',
-    'MAKE_NORMAL'           => 'Направи Нормална тема',
-    'MAKE_STICKY'           => 'Закачи темата',
-    'MAX_OPTIONS_SELECT'    => array(
-		1	=> 'Вие можете да гласувате за <strong>%d</strong> неща',
-		2	=> 'Вие можете да гласувате за <strong>%d</strong> неща',
-		3	=> 'Вие можете да гласувате за <strong>%d</strong> неща',
+	'MAKE_ANNOUNCE'				=> 'Промени на “Важно съобщение”',
+	'MAKE_GLOBAL'				=> 'Промени на “Глобално съобщение”',
+	'MAKE_NORMAL'				=> 'Промени на “Нормална тема”',
+	'MAKE_STICKY'				=> 'Промени на “Закачена тема”',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> 'Можете да изберете само <strong>%d</strong> отговор',
+		2	=> 'Можете да изберете до <strong>%d</strong> отговора',
 	),
-    'MISSING_INLINE_ATTACHMENT'=> 'Прикачения файл <strong>%s</strong> вече е недостъпен',
-    'MOVE_TOPIC'            => 'Премести тема',
+	'MISSING_INLINE_ATTACHMENT'	=> 'Прикаченият файл <strong>%s</strong> вече не е достъпен',
+	'MOVE_TOPIC'				=> 'Премести темата',
 
-    'NO_ATTACHMENT_SELECTED'=> 'Няма избрани прикачени файлове за преглед или сваляне.',
-    'NO_NEWER_TOPICS'       => 'Няма нови теми в този форум',
-    'NO_OLDER_TOPICS'       => 'Няма стари теми в този форум',
-    'NO_UNREAD_POSTS'       => 'Няма непрочетени мнения в тази тема.',
-    'NO_VOTE_OPTION'        => 'Трябва да избереш за кого искаш да гласуваш.',
-    'NO_VOTES'              => 'Няма гласували',
+	'NO_ATTACHMENT_SELECTED'=> 'Не сте избрали прикачен файл за сваляне или разглеждане.',
+	'NO_NEWER_TOPICS'		=> 'Няма по-нови теми в този форум.',
+	'NO_OLDER_TOPICS'		=> 'Няма по-стари теми в този форум.',
+	'NO_UNREAD_POSTS'		=> 'Няма нови непрочетени съобщения в тази тема.',
+	'NO_VOTE_OPTION'		=> 'Трябва да изберете отговор когато гласувате.',
+	'NO_VOTES'				=> 'Няма гласове',
 
-    'POLL_ENDED_AT'         => 'Анкетата свършва на %s',
-    'POLL_RUN_TILL'         => 'Анкетата е валидна до %s',
-	'POST_DELETED_RESTORE'	=> 'Даденото съобщение е изтрито, но може да бъде възстановено.',																						 
-    'POLL_VOTED_OPTION'     => 'Вашия глас',
-    'PRINT_TOPIC'           => 'Принтирай',
+	'POLL_ENDED_AT'			=> 'Анкетата завърши на %s',
+	'POLL_RUN_TILL'			=> 'Анкетата е активна до %s',
+	'POLL_VOTED_OPTION'		=> 'Гласувахте за този отговор',
+	'POST_DELETED_RESTORE'	=> 'Мнението беше изтрито и не може да бъде възстановено.',
+	'PRINT_TOPIC'			=> 'Изглед за принтиране',
 
-    'QUICK_MOD'             => 'Опции',
-	'QUICKREPLY'			=> 'Бърз Отговор',
-    'QUOTE'                 => 'Цитат',
+	'QUICK_MOD'				=> 'Инструменти за бързо модериране',
+	'QUICKREPLY'			=> 'Бърз отговор',
+	'QUOTE'					=> 'Цитат',
 
-    'REPLY_TO_TOPIC'        => 'Отговори на тема',
+	'REPLY_TO_TOPIC'		=> 'Отговори',
 	'RESTORE'				=> 'Възстанови',
 	'RESTORE_TOPIC'			=> 'Възстанови темата',
-    'RETURN_POST'           => '%sВърни се към мненията%s',
+	'RETURN_POST'			=> '%sВърни се към мненията%s',
 
-    'SUBMIT_VOTE'           => 'Изпрати гласа',
-	
-	'TOPIC_TOOLS'			=> 'Управление на темата',
-    'TOTAL_VOTES'           => 'Общо гласове',
+	'SUBMIT_VOTE'			=> 'Гласувай',
 
-    'UNLOCK_TOPIC'          => 'Отключи тема',
+	'TOPIC_TOOLS'			=> 'Инструменти за темата',
+	'TOTAL_VOTES'			=> 'Общо гласове',
 
-    'VIEW_INFO'             => 'Детайли на мнението',
-    'VIEW_NEXT_TOPIC'       => 'Следваща тема',
-    'VIEW_PREVIOUS_TOPIC'   => 'Предишна тема',
-    'VIEW_RESULTS'          => 'Резултати',
+	'UNLOCK_TOPIC'			=> 'Отключи темата',
+
+	'VIEW_INFO'				=> 'Детайли за мнението',
+	'VIEW_NEXT_TOPIC'		=> 'Следваща тема',
+	'VIEW_PREVIOUS_TOPIC'	=> 'Предишна тема',
+	'VIEW_RESULTS'			=> 'Виж резултатите',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d мнение',
 		2	=> '%d мнения',
-		3	=> '%d мнения',
 	),
-    'VIEW_UNREAD_POST'      => 'Първото непрочетено мнение',
-    'VOTE_SUBMITTED'        => 'Гласа ви беше зачетен',
-	'VOTE_CONVERTED'        => 'Промяната на гласовете не се поддържа в конвертираните анкети.',
+	'VIEW_UNREAD_POST'		=> 'Първо непрочетено мнение',
+	'VOTE_SUBMITTED'		=> 'Гласувахте успешно.',
+	'VOTE_CONVERTED'		=> 'Смяната на гласа не се поддържа за конвертирани анкети.',
+
 ));
