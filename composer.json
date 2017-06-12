@@ -1,0 +1,9 @@
+{
+	"name": "bgparadise/bg-translation-phpbb-3.2",
+	"description": "Bulgarian Translation of phpBB",
+
+	"require-dev": {
+		"phing/phing": "2.7.*",
+		"phpbb/translation-validator": "1.3.*"
+	}
+}
